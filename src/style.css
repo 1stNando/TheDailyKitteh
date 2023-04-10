@@ -1,0 +1,43 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.3em;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #858181;
+}
+
+header {
+  display: flex;
+
+  border: solid black 0.1em;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+
+  border: solid black 0.1em;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  border: 0.1em solid black;
+
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+div {
+  border: solid black 0.1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  border: solid black 0.1em;
+}

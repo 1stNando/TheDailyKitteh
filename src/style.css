@@ -5,21 +5,29 @@
 
   color-scheme: light dark;
   color: black;
-  background-color: #858181;
+  background-color: rgb(241, 248, 248);
 }
 
 header {
   display: flex;
 
-  border: solid black 0.1em;
   justify-content: center;
+
+  font-size: 1.8em;
+  color: black;
+}
+
+nav {
+  display: flex;
+  align-items: stretch;
 }
 
 ul#nav {
   display: flex;
-  width: 99%;
+
   list-style-type: none;
-  border: solid black 0.1em;
+  border: solid rgb(175, 16, 16) 0.1em;
+  text-decoration: underline;
 }
 
 ul {
@@ -44,4 +52,11 @@ footer {
 ul#imagePoints {
   display: flex;
   flex-direction: column;
+}
+
+ol {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+  border: 0.1rem solid black;
 }

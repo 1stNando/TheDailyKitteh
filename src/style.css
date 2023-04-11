@@ -5,19 +5,14 @@
 
   color-scheme: light dark;
   color: black;
-  background-color: rgb(241, 248, 248);
+  background-color: rgb(210, 223, 223);
 }
 
 header {
   display: flex;
+  font-size: 3em;
 
   justify-content: center;
-
-  font-size: 1.8em;
-  color: black;
-}
-
-nav {
 }
 
 ul#menu {
@@ -30,7 +25,7 @@ ul#menu {
 
   text-decoration: underline;
   color: white;
-  background-color: rgb(82, 218, 249);
+  background-color: rgb(126, 221, 243);
 }
 
 div {
@@ -39,14 +34,29 @@ div {
   justify-content: space-between;
 }
 
+#left {
+  border: 2px solid gray;
+}
+
 ul#imagePoints {
   display: flex;
   flex-direction: column;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ddd0d0;
+  height: auto;
+  width: 100%;
+}
+
 ol {
   display: flex;
   justify-content: space-around;
-  background-color: gray;
+  text-decoration: underline;
+  list-style-type: none;
   width: 100%;
 }
